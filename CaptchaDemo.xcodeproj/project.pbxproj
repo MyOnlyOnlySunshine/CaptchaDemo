@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A072161CF6CA2D00D56F0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A072151CF6CA2D00D56F0B /* main.m */; };
+		18A072191CF6CA2D00D56F0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A072181CF6CA2D00D56F0B /* AppDelegate.m */; };
+		18A0721C1CF6CA2D00D56F0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0721B1CF6CA2D00D56F0B /* ViewController.m */; };
+		18A0721F1CF6CA2D00D56F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A0721D1CF6CA2D00D56F0B /* Main.storyboard */; };
+		18A072221CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18A072201CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodeld */; };
+		18A072241CF6CA2D00D56F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A072231CF6CA2D00D56F0B /* Assets.xcassets */; };
+		18A072271CF6CA2D00D56F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A072251CF6CA2D00D56F0B /* LaunchScreen.storyboard */; };
+		18A072321CF6CA2D00D56F0B /* CaptchaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A072311CF6CA2D00D56F0B /* CaptchaDemoTests.m */; };
+		18A0723D1CF6CA2D00D56F0B /* CaptchaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0723C1CF6CA2D00D56F0B /* CaptchaDemoUITests.m */; };
+		18A0724C1CF6CA5A00D56F0B /* CaptchaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A0724B1CF6CA5A00D56F0B /* CaptchaView.m */; };
+		18A0724E1CF6CD7900D56F0B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A0724D1CF6CD7900D56F0B /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18A0722E1CF6CA2D00D56F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A072091CF6CA2D00D56F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A072101CF6CA2D00D56F0B;
+			remoteInfo = CaptchaDemo;
+		};
+		18A072391CF6CA2D00D56F0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18A072091CF6CA2D00D56F0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18A072101CF6CA2D00D56F0B;
+			remoteInfo = CaptchaDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A072111CF6CA2D00D56F0B /* CaptchaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaptchaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A072151CF6CA2D00D56F0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A072171CF6CA2D00D56F0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18A072181CF6CA2D00D56F0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18A0721A1CF6CA2D00D56F0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18A0721B1CF6CA2D00D56F0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18A0721E1CF6CA2D00D56F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18A072211CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaptchaDemo.xcdatamodel; sourceTree = "<group>"; };
+		18A072231CF6CA2D00D56F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18A072261CF6CA2D00D56F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18A072281CF6CA2D00D56F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A0722D1CF6CA2D00D56F0B /* CaptchaDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptchaDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A072311CF6CA2D00D56F0B /* CaptchaDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptchaDemoTests.m; sourceTree = "<group>"; };
+		18A072331CF6CA2D00D56F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A072381CF6CA2D00D56F0B /* CaptchaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CaptchaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A0723C1CF6CA2D00D56F0B /* CaptchaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptchaDemoUITests.m; sourceTree = "<group>"; };
+		18A0723E1CF6CA2D00D56F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A0724A1CF6CA5A00D56F0B /* CaptchaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaView.h; sourceTree = "<group>"; };
+		18A0724B1CF6CA5A00D56F0B /* CaptchaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaView.m; sourceTree = "<group>"; };
+		18A0724D1CF6CD7900D56F0B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A0720E1CF6CA2D00D56F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0724E1CF6CD7900D56F0B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0722A1CF6CA2D00D56F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A072351CF6CA2D00D56F0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A072081CF6CA2D00D56F0B = {
+			isa = PBXGroup;
+			children = (
+				18A0724D1CF6CD7900D56F0B /* CoreGraphics.framework */,
+				18A072131CF6CA2D00D56F0B /* CaptchaDemo */,
+				18A072301CF6CA2D00D56F0B /* CaptchaDemoTests */,
+				18A0723B1CF6CA2D00D56F0B /* CaptchaDemoUITests */,
+				18A072121CF6CA2D00D56F0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A072121CF6CA2D00D56F0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A072111CF6CA2D00D56F0B /* CaptchaDemo.app */,
+				18A0722D1CF6CA2D00D56F0B /* CaptchaDemoTests.xctest */,
+				18A072381CF6CA2D00D56F0B /* CaptchaDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A072131CF6CA2D00D56F0B /* CaptchaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18A072171CF6CA2D00D56F0B /* AppDelegate.h */,
+				18A072181CF6CA2D00D56F0B /* AppDelegate.m */,
+				18A0721A1CF6CA2D00D56F0B /* ViewController.h */,
+				18A0721B1CF6CA2D00D56F0B /* ViewController.m */,
+				18A0724A1CF6CA5A00D56F0B /* CaptchaView.h */,
+				18A0724B1CF6CA5A00D56F0B /* CaptchaView.m */,
+				18A0721D1CF6CA2D00D56F0B /* Main.storyboard */,
+				18A072231CF6CA2D00D56F0B /* Assets.xcassets */,
+				18A072251CF6CA2D00D56F0B /* LaunchScreen.storyboard */,
+				18A072281CF6CA2D00D56F0B /* Info.plist */,
+				18A072201CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodeld */,
+				18A072141CF6CA2D00D56F0B /* Supporting Files */,
+			);
+			path = CaptchaDemo;
+			sourceTree = "<group>";
+		};
+		18A072141CF6CA2D00D56F0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18A072151CF6CA2D00D56F0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18A072301CF6CA2D00D56F0B /* CaptchaDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18A072311CF6CA2D00D56F0B /* CaptchaDemoTests.m */,
+				18A072331CF6CA2D00D56F0B /* Info.plist */,
+			);
+			path = CaptchaDemoTests;
+			sourceTree = "<group>";
+		};
+		18A0723B1CF6CA2D00D56F0B /* CaptchaDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18A0723C1CF6CA2D00D56F0B /* CaptchaDemoUITests.m */,
+				18A0723E1CF6CA2D00D56F0B /* Info.plist */,
+			);
+			path = CaptchaDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A072101CF6CA2D00D56F0B /* CaptchaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A072411CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemo" */;
+			buildPhases = (
+				18A0720D1CF6CA2D00D56F0B /* Sources */,
+				18A0720E1CF6CA2D00D56F0B /* Frameworks */,
+				18A0720F1CF6CA2D00D56F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaptchaDemo;
+			productName = CaptchaDemo;
+			productReference = 18A072111CF6CA2D00D56F0B /* CaptchaDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18A0722C1CF6CA2D00D56F0B /* CaptchaDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A072441CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemoTests" */;
+			buildPhases = (
+				18A072291CF6CA2D00D56F0B /* Sources */,
+				18A0722A1CF6CA2D00D56F0B /* Frameworks */,
+				18A0722B1CF6CA2D00D56F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A0722F1CF6CA2D00D56F0B /* PBXTargetDependency */,
+			);
+			name = CaptchaDemoTests;
+			productName = CaptchaDemoTests;
+			productReference = 18A0722D1CF6CA2D00D56F0B /* CaptchaDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18A072371CF6CA2D00D56F0B /* CaptchaDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A072471CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemoUITests" */;
+			buildPhases = (
+				18A072341CF6CA2D00D56F0B /* Sources */,
+				18A072351CF6CA2D00D56F0B /* Frameworks */,
+				18A072361CF6CA2D00D56F0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18A0723A1CF6CA2D00D56F0B /* PBXTargetDependency */,
+			);
+			name = CaptchaDemoUITests;
+			productName = CaptchaDemoUITests;
+			productReference = 18A072381CF6CA2D00D56F0B /* CaptchaDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A072091CF6CA2D00D56F0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChangChang;
+				TargetAttributes = {
+					18A072101CF6CA2D00D56F0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CYH4E68DS3;
+					};
+					18A0722C1CF6CA2D00D56F0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CYH4E68DS3;
+						TestTargetID = 18A072101CF6CA2D00D56F0B;
+					};
+					18A072371CF6CA2D00D56F0B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CYH4E68DS3;
+						TestTargetID = 18A072101CF6CA2D00D56F0B;
+					};
+				};
+			};
+			buildConfigurationList = 18A0720C1CF6CA2D00D56F0B /* Build configuration list for PBXProject "CaptchaDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18A072081CF6CA2D00D56F0B;
+			productRefGroup = 18A072121CF6CA2D00D56F0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A072101CF6CA2D00D56F0B /* CaptchaDemo */,
+				18A0722C1CF6CA2D00D56F0B /* CaptchaDemoTests */,
+				18A072371CF6CA2D00D56F0B /* CaptchaDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18A0720F1CF6CA2D00D56F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A072271CF6CA2D00D56F0B /* LaunchScreen.storyboard in Resources */,
+				18A072241CF6CA2D00D56F0B /* Assets.xcassets in Resources */,
+				18A0721F1CF6CA2D00D56F0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A0722B1CF6CA2D00D56F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A072361CF6CA2D00D56F0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A0720D1CF6CA2D00D56F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0721C1CF6CA2D00D56F0B /* ViewController.m in Sources */,
+				18A0724C1CF6CA5A00D56F0B /* CaptchaView.m in Sources */,
+				18A072221CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodeld in Sources */,
+				18A072191CF6CA2D00D56F0B /* AppDelegate.m in Sources */,
+				18A072161CF6CA2D00D56F0B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A072291CF6CA2D00D56F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A072321CF6CA2D00D56F0B /* CaptchaDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A072341CF6CA2D00D56F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A0723D1CF6CA2D00D56F0B /* CaptchaDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18A0722F1CF6CA2D00D56F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A072101CF6CA2D00D56F0B /* CaptchaDemo */;
+			targetProxy = 18A0722E1CF6CA2D00D56F0B /* PBXContainerItemProxy */;
+		};
+		18A0723A1CF6CA2D00D56F0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18A072101CF6CA2D00D56F0B /* CaptchaDemo */;
+			targetProxy = 18A072391CF6CA2D00D56F0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A0721D1CF6CA2D00D56F0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A0721E1CF6CA2D00D56F0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18A072251CF6CA2D00D56F0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A072261CF6CA2D00D56F0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18A0723F1CF6CA2D00D56F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18A072401CF6CA2D00D56F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18A072421CF6CA2D00D56F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptchaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A072431CF6CA2D00D56F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CaptchaDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18A072451CF6CA2D00D56F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaptchaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptchaDemo.app/CaptchaDemo";
+			};
+			name = Debug;
+		};
+		18A072461CF6CA2D00D56F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CaptchaDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CaptchaDemo.app/CaptchaDemo";
+			};
+			name = Release;
+		};
+		18A072481CF6CA2D00D56F0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaptchaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaptchaDemo;
+			};
+			name = Debug;
+		};
+		18A072491CF6CA2D00D56F0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CaptchaDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.CC.CaptchaDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CaptchaDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A0720C1CF6CA2D00D56F0B /* Build configuration list for PBXProject "CaptchaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A0723F1CF6CA2D00D56F0B /* Debug */,
+				18A072401CF6CA2D00D56F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A072411CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A072421CF6CA2D00D56F0B /* Debug */,
+				18A072431CF6CA2D00D56F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A072441CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A072451CF6CA2D00D56F0B /* Debug */,
+				18A072461CF6CA2D00D56F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18A072471CF6CA2D00D56F0B /* Build configuration list for PBXNativeTarget "CaptchaDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A072481CF6CA2D00D56F0B /* Debug */,
+				18A072491CF6CA2D00D56F0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18A072201CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18A072211CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodel */,
+			);
+			currentVersion = 18A072211CF6CA2D00D56F0B /* CaptchaDemo.xcdatamodel */;
+			path = CaptchaDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18A072091CF6CA2D00D56F0B /* Project object */;
+}
